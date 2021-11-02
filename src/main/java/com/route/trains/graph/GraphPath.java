@@ -104,5 +104,4 @@ public class GraphPath<V> implements Path<V> {
     public int compareTo(final Path<V> otherPath) {
         return this.getPathTotalWeight() - otherPath.getPathTotalWeight();
     }
-
 }
